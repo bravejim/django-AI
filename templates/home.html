@@ -1,0 +1,31 @@
+    {% extends 'base.html' %}
+    {% block content %}
+    <div id="header" class="home">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-4 bg-dark">
+                    <div class="card">
+                        Hello
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <button class="btn btn-primary">Hello</button>
+                </div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="header-content">
+                <h1>Diagnosis Penyakit Perokok menggunakan Metode Forward Chaining dengan First Order Logic
+                </h1>
+                <p>Tugas Akhir Kecerdasan Buatan ( KOM321 ) 2019</p>
+                <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">Coba
+                    Sekarang!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Questions Modal -->
+
+    {% include 'questions_modal.html' %}
+    <!-- Modal ends here -->
+    {% endblock %}
